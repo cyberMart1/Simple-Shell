@@ -62,7 +62,7 @@ int print_d(int in, int df)
 	if (in < 0)
 	{
 		_abc_ = -in;
-		_-putchar('-');
+		_putchar('-');
 		count++;
 	}
 	else
@@ -111,7 +111,7 @@ char *convert_number(long int n, int b, int f)
 	do {
 		*--p = arr[num % b];
 		num /= b;
-	} while(num != 0);
+	} while (num != 0);
 
 	while (s)
 		*--ptr = s;
@@ -119,7 +119,7 @@ char *convert_number(long int n, int b, int f)
 }
 
 /**
- * remove_comments - function replace 
+ * remove_comments - function replace
  * @buffers: address of stringsd
  * Return: Always 0
  */
