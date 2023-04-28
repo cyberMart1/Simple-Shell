@@ -33,7 +33,7 @@ int _erratoi(char *str)
  * @es: string contasining erroe message
  * Return: always 0
  */
-coid print_error(info_t *info, char *es)
+void print_error(info_t *info, char *es)
 {
 	_eputs(info->fname);
 	_eputs(": ");
